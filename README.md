@@ -198,10 +198,6 @@ system_host:
   127.0.0.1: foobar.localhost
 ```
 
-### Examples
-
-Below includes minimal and advanced configuration examples. If you would like to see a more real world example take a look at [blackglasses public configuration](https://github.com/ALT-F4-LLC/dotfiles-erikreinert) repository.
-
 #### Minimal
 
 Below is a minimal example of `values.yaml` file:
@@ -282,7 +278,7 @@ This shell script is also used to initialize your environment after installing `
 > NOTE: You must follow required steps before running this command or things may become unusable until fixed.
 
 ```bash
-$ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ALT-F4-LLC/dotfiles/main/bin/dotfiles)"
+$ bash -c "$(curl -fsSL https://raw.githubusercontent.com/bileckme/dotfiles/main/bin/dotfiles)"
 ```
 
 ### Update
@@ -308,5 +304,3 @@ This will handle the following tasks:
 ### Neovim Updates
 
 Sometimes the cloning task in `neovim` role fails due to conflicts with the repository history. The easiest solution is to delete the repository at `~/Development/repository/github.com/neovim/neovim` and let the playbook clone it again.
-
-[preview]: https://github.com/ALT-F4-LLC/dotfiles/blob/main/TheAltF4Stream.gif "The Alt-F4 Stream"
